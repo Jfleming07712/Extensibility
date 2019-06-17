@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleViewer", "PeopleViewer\PeopleViewer.csproj", "{B09ED0A5-BD38-4AA1-BF39-2F734D5B5EEB}"
 EndProject
@@ -12,6 +12,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRepository.Interface", "PersonRepository.Interface\PersonRepository.Interface.csproj", "{EF1D5215-E99B-4FE7-ABC3-BD748F75780C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "People.Service", "People.Service\People.Service.csproj", "{C6554F00-5431-4494-8CD0-63BD009147FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepository.Service", "PersonRepository.Service\PersonRepository.Service.csproj", "{D52A651E-690D-42BA-B18A-463F8316017B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRepository.CSV", "PersonRepository.CSV\PersonRepository.CSV.csproj", "{60F494AE-720A-4859-BA9F-880A6A88A10E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRepository.SQL", "PersonRepository.SQL\PersonRepository.SQL.csproj", "{A6F5B2C0-679B-4C41-989F-7FEA7025B3E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepository.Factory", "PersonRepository.Factory\PersonRepository.Factory.csproj", "{112CDF73-29EE-4623-AA11-D8B516AB0E27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +39,22 @@ Global
 		{C6554F00-5431-4494-8CD0-63BD009147FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6554F00-5431-4494-8CD0-63BD009147FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6554F00-5431-4494-8CD0-63BD009147FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52A651E-690D-42BA-B18A-463F8316017B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52A651E-690D-42BA-B18A-463F8316017B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52A651E-690D-42BA-B18A-463F8316017B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52A651E-690D-42BA-B18A-463F8316017B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F494AE-720A-4859-BA9F-880A6A88A10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F494AE-720A-4859-BA9F-880A6A88A10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F494AE-720A-4859-BA9F-880A6A88A10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F494AE-720A-4859-BA9F-880A6A88A10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F5B2C0-679B-4C41-989F-7FEA7025B3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F5B2C0-679B-4C41-989F-7FEA7025B3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F5B2C0-679B-4C41-989F-7FEA7025B3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F5B2C0-679B-4C41-989F-7FEA7025B3E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{112CDF73-29EE-4623-AA11-D8B516AB0E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112CDF73-29EE-4623-AA11-D8B516AB0E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112CDF73-29EE-4623-AA11-D8B516AB0E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112CDF73-29EE-4623-AA11-D8B516AB0E27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +62,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EF1D5215-E99B-4FE7-ABC3-BD748F75780C} = {4811D227-D7BB-43CA-93BB-B249031CF05A}
 		{C6554F00-5431-4494-8CD0-63BD009147FC} = {2762D014-5031-4CA9-BC3E-1061A5909461}
+		{D52A651E-690D-42BA-B18A-463F8316017B} = {4811D227-D7BB-43CA-93BB-B249031CF05A}
+		{60F494AE-720A-4859-BA9F-880A6A88A10E} = {4811D227-D7BB-43CA-93BB-B249031CF05A}
+		{A6F5B2C0-679B-4C41-989F-7FEA7025B3E8} = {4811D227-D7BB-43CA-93BB-B249031CF05A}
+		{112CDF73-29EE-4623-AA11-D8B516AB0E27} = {4811D227-D7BB-43CA-93BB-B249031CF05A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {187627C5-1D62-4F47-A6DC-F6E1D42FF89F}

@@ -86,8 +86,8 @@
     <Reference Include="Microsoft.Extensions.Primitives, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Primitives.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
       <HintPath>..\packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
@@ -210,9 +210,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PersonRepository.CSV\PersonRepository.CSV.csproj">
+      <Project>{60f494ae-720a-4859-ba9f-880a6a88a10e}</Project>
+      <Name>PersonRepository.CSV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersonRepository.Factory\PersonRepository.Factory.csproj">
+      <Project>{112cdf73-29ee-4623-aa11-d8b516ab0e27}</Project>
+      <Name>PersonRepository.Factory</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PersonRepository.Interface\PersonRepository.Interface.csproj">
       <Project>{ef1d5215-e99b-4fe7-abc3-bd748f75780c}</Project>
       <Name>PersonRepository.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersonRepository.Service\PersonRepository.Service.csproj">
+      <Project>{d52a651e-690d-42ba-b18a-463f8316017b}</Project>
+      <Name>PersonRepository.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersonRepository.SQL\PersonRepository.SQL.csproj">
+      <Project>{a6f5b2c0-679b-4c41-989f-7fea7025b3e8}</Project>
+      <Name>PersonRepository.SQL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
